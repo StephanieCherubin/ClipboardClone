@@ -1,5 +1,5 @@
 require 'sinatra'
 
 get '/' do
-  File.open("public/clipboard.html")
+  File.open("path/to/file")
 end
